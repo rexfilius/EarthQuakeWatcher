@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:padding="25dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/popupTitle"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/more_information"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/popupListTitle"
+                    android:padding="8dp"
+                    android:layout_below="@id/popupTitle"
+                    android:text="@string/surrounding_cities"
+                    android:textSize="17sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/dismissPopupTop"
+                    android:layout_below="@id/popupTitle"
+                    android:layout_alignBottom="@id/popupListTitle"
+                    android:layout_alignParentEnd="true"
+                    android:background="@android:drawable/ic_menu_close_clear_cancel"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"/>
+
+                <TextView
+                    android:id="@+id/popupList"
+                    android:layout_below="@id/popupListTitle"
+                    android:text="@string/hello"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <Button
+                    android:id="@+id/dismissPopup"
+                    android:layout_below="@id/popupList"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="@android:color/white"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/close"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </ScrollView>
+
+</LinearLayout>
