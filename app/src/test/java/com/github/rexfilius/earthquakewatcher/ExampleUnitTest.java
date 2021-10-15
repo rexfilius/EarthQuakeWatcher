@@ -1,4 +1,4 @@
-package com.example.earthquakewatcher;
+package com.github.rexfilius.earthquakewatcher;
 
 import org.junit.Test;
 

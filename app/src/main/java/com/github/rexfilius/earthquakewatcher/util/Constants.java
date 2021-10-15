@@ -1,6 +1,4 @@
-package com.example.earthquakewatcher.Util;
-
-import java.util.Random;
+package com.github.rexfilius.earthquakewatcher.util;
 
 public class Constants {
 

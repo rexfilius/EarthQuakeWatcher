@@ -1,4 +1,4 @@
-package com.example.earthquakewatcher.Activities;
+package com.github.rexfilius.earthquakewatcher.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,16 +12,15 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.earthquakewatcher.Model.EarthQuake;
+import com.github.rexfilius.earthquakewatcher.model.EarthQuake;
 import com.example.earthquakewatcher.R;
-import com.example.earthquakewatcher.Util.Constants;
+import com.github.rexfilius.earthquakewatcher.util.Constants;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class QuakeListActivity extends AppCompatActivity {
 

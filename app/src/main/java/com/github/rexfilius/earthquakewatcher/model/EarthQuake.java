@@ -1,4 +1,4 @@
-package com.example.earthquakewatcher.Model;
+package com.github.rexfilius.earthquakewatcher.model;
 
 public class EarthQuake {
 

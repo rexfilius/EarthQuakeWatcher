@@ -1,4 +1,4 @@
-package com.example.earthquakewatcher.UI;
+package com.github.rexfilius.earthquakewatcher.ui;
 
 import android.content.Context;
 import android.view.LayoutInflater;
